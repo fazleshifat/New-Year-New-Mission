@@ -1,0 +1,108 @@
+/* banner section styles */
+
+.banner-container {
+    width: 1000px;
+    height: 500px;
+    margin: 50px 140px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #53457075 0%, rgba(71, 60, 95, 0) 100%);
+    background-image: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner-content {
+    text-align: center;
+    padding: 70px 200px;
+    font-size: 35px;
+    color: white;
+}
+
+/* discount sections style */
+
+.discount-container {
+    color: #F00;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.discount-container img {
+    width: 500px;
+}
+
+.discount-container h3 {
+    color: black;
+}
+
+/* Welcome card sections style */
+
+.welcome-card-container {
+    margin: 20px 200px;
+    background-image: url('../images/Vectorrr.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    gap: 100px;
+}
+
+.welcome-card-content {
+    display: flex;
+    padding: 80px 100px;
+    gap: 200px
+}
+
+.welcome-card-column {
+
+    color: white;
+    gap: 100px;
+}
+
+.welcome-card-column h2 {
+    font-size: 35px;
+    font-family: monospace;
+}
+
+.welcome-card-column p {
+    font-size: 12px;
+}
+
+.welcome-card-column a {
+    color: white;
+}
+
+.welcome-card-column img {
+    height: 250px;
+    width: auto;
+    padding-bottom: 20px;
+
+
+}
+
+/* schedule sections style */
+
+.schedule-container {
+    margin: 20px 200px;
+    background-color: rgba(255, 228, 196, 0.411);
+}
+
+.schedule-content {
+    padding: 70px 250px;
+    text-align: center;
+    font-family: calibri;
+    font-size: 18px;
+}
+
+.schedule-content span {
+    color: red;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    color: white;
+    font-weight: 600;
+}
