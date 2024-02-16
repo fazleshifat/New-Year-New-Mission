@@ -1,3 +1,8 @@
+/* common styles */
+*{
+    font-family: monospace;
+}
+
 /* banner section styles */
 
 .banner-container {
@@ -8,7 +13,7 @@
     background: linear-gradient(180deg, #53457075 0%, rgba(71, 60, 95, 0) 100%);
     background-image: url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
-    
+
 }
 
 .banner-content {
@@ -25,17 +30,21 @@
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
-  
+
 }
-.discount-container h1{
-    font-size:70px;
+
+.discount-container h1 {
+    font-size: 70px;
 }
-.discount-container h6{
+
+.discount-container h6 {
     font-size: 18px;
 }
-.discount-container h3{
+
+.discount-container h3 {
     font-size: 38px;
 }
+
 .discount-container img {
     width: 700px;
 }
@@ -46,53 +55,34 @@
 
 /* Welcome card sections style */
 
-.welcome-card-container{
+.welcome-card-container {
     background-image: url('../images/Vectorrr.png');
     background-repeat: no-repeat;
     width: 1300px;
     height: 600px;
     margin: 120px auto;
     display: flex;
-
-
-
 }
 
-
-
-.welcome-card-content {
+.welcome-card-content{
     display: flex;
-    padding: 200px 200px;
-    gap: 200px
+    align-items: center;
 }
-
-.welcome-card-column {
-
+.welcome-card-column{
+    padding: 0 120px;
     color: white;
-    gap: 100px;
 }
 
-.welcome-card-column h2 {
-    font-size: 35px;
+.welcome-card-column h1{
+    font-size: 50px;
+    
     font-family: monospace;
+
 }
 
-.welcome-card-column p {
-    font-size: 12px;
-}
-
-.welcome-card-column a {
+.welcome-card-column a{
     color: white;
 }
-
-.welcome-card-column img {
-    height: 250px;
-    width: auto;
-    padding-bottom: 20px;
-
-
-}
-
 /* schedule sections style */
 
 .schedule-container {
@@ -121,3 +111,36 @@
     color: white;
     font-weight: 600;
 }
+
+/* offer section related styles */
+
+.offer-content{
+    max-width: 1300px;
+    display: flex;
+    margin: 200px auto;
+    gap: 200px;
+}
+
+.offer-column{
+}
+
+.offer-column h4{
+    font-size: 30px;
+    color: red;
+}
+
+.offer-column p{
+    font-size: 16px;
+}
+
+.offer-column h2{
+    font-size: 40px;
+    
+}
+.offer-column h3{
+    color: red;
+    font-size: 40px;
+}
+
+
+
