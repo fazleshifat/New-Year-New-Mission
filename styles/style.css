@@ -1,26 +1,36 @@
 /* common styles */
-*{
-    font-family: monospace;
-}
+
 
 /* banner section styles */
 
 .banner-container {
+    background-image: url('../images/Banner\ Image\ -\ Copy.png');
+    background-repeat: no-repeat;
     width: 1300px;
     height: 600px;
     margin: 50px auto;
-    border-radius: 16px;
-    background: linear-gradient(180deg, #53457075 0%, rgba(71, 60, 95, 0) 100%);
-    background-image: url('../images/Banner\ Image.png');
-    background-repeat: no-repeat;
-
+    border-radius: 16px
 }
 
 .banner-content {
     text-align: center;
-    padding: 80px 200px;
-    font-size: 50px;
-    color: white;
+    padding: 10px 200px;
+    font-size: 60px;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+
+
+}
+
+.banner-content h4 {
+    color: rgb(183, 182, 181);
+
+}
+
+.banner-content h2 {
+    color: gold;
 }
 
 /* discount sections style */
@@ -32,6 +42,8 @@
     font-weight: 700;
 
 }
+
+
 
 .discount-container h1 {
     font-size: 70px;
@@ -56,7 +68,7 @@
 /* Welcome card sections style */
 
 .welcome-card-container {
-    background-image: url('../images/Vectorrr.png');
+    background-image: url('../images/Vectorrr\ -\ Copy.png');
     background-repeat: no-repeat;
     width: 1300px;
     height: 600px;
@@ -64,25 +76,39 @@
     display: flex;
 }
 
-.welcome-card-content{
+.welcome-card-content {
     display: flex;
     align-items: center;
 }
-.welcome-card-column{
+
+.welcome-card-column {
     padding: 0 120px;
-    color: white;
+    color: rgb(224, 239, 187);
 }
 
-.welcome-card-column h1{
-    font-size: 50px;
-    
+.welcome-card-column h1 {
+    font-size: 60px;
+
     font-family: monospace;
 
 }
 
-.welcome-card-column a{
+.welcome-card-column a {
     color: white;
+    
 }
+
+.btn-welcome {
+    background-color: rgb(225, 227, 109);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-weight: 600;
+}
+.btn-welcome a{
+    color: rgb(66, 61, 61);
+}
+
 /* schedule sections style */
 
 .schedule-container {
@@ -93,10 +119,10 @@
 }
 
 .schedule-content {
-    padding: 80px 300px;
+    padding: 120px 300px;
     text-align: center;
     font-family: calibri;
-    font-size: 30px;
+    font-size: 23px;
 }
 
 .schedule-content span {
@@ -114,33 +140,112 @@
 
 /* offer section related styles */
 
-.offer-content{
+.offer-content {
     max-width: 1300px;
     display: flex;
     margin: 200px auto;
-    gap: 200px;
+    gap: 100px;
+    font-family: calibri;
 }
 
-.offer-column{
-}
+.offer-column {}
 
-.offer-column h4{
+.offer-column h4 {
     font-size: 30px;
     color: red;
 }
 
-.offer-column p{
+.offer-column p {
     font-size: 16px;
 }
 
-.offer-column h2{
+.offer-column h2 {
     font-size: 40px;
-    
+
 }
-.offer-column h3{
+
+.offer-column h3 {
     color: red;
     font-size: 40px;
 }
 
+.offer-column .img-offer {
+    border: 10px solid #F00;
+    border-radius: 50%;
+    padding: 30px;
+    margin-right:150px;
+    width: 300px;
 
+}
 
+/* sale section */
+
+.sale-span{
+    color: black;
+}
+
+.sale-container h5,h1,p{
+    margin-top: -20px;
+}
+
+.sale-container{
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: -50px;
+}
+
+.sale-container h5{
+    font-size: 18px;
+    font-family: calibri;
+}
+.sale-container h1{
+    font-size: 70px;
+    font-family: calibri;
+    color: red;
+    font-weight: 700;
+}
+.sale-container p{
+    padding: 0 300px;
+}
+
+.sale-container-img{
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+
+.sale-container-img .sale-img-1{
+    width: 400px;
+    margin-left:900px;
+    vertical-align: middle;
+  
+}
+.sale-container-img .sale-img-2{
+    width: 1300px;
+    height: 200px;
+}
+.img-box{
+    width: 550px;
+    height: 400px;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 50px;
+}
+.img-circle{
+    width: 250px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 800px;
+}
+
+/* portfolio section related style */
+
+.portfolio-container{
+    max-width: 1300px;
+    margin:0 auto;
+}
+
+.portfolio-img{
+   
+}
