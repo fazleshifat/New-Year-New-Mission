@@ -1,4 +1,3 @@
-/* common styles */
 
 
 /* banner section styles */
@@ -19,7 +18,7 @@
     font-family: "Protest Guerrilla", sans-serif;
     font-weight: 400;
     font-style: normal;
-    
+
 
 
 }
@@ -95,7 +94,7 @@
 
 .welcome-card-column a {
     color: white;
-    
+
 }
 
 .btn-welcome {
@@ -105,7 +104,8 @@
     padding: 15px 30px;
     font-weight: 600;
 }
-.btn-welcome a{
+
+.btn-welcome a {
     color: rgb(66, 61, 61);
 }
 
@@ -148,7 +148,6 @@
     font-family: calibri;
 }
 
-.offer-column {}
 
 .offer-column h4 {
     font-size: 30px;
@@ -173,66 +172,71 @@
     border: 10px solid #F00;
     border-radius: 50%;
     padding: 30px;
-    margin-right:150px;
+    margin-right: 150px;
     width: 300px;
 
 }
 
 /* sale section */
 
-.sale-span{
+.sale-span {
     color: black;
 }
 
-.sale-container h5,h1,p{
+.sale-container h5, h1,p {
     margin-top: -20px;
 }
 
-.sale-container{
+.sale-container {
     max-width: 1000px;
     text-align: center;
     margin: 0 auto;
     padding-top: -50px;
 }
 
-.sale-container h5{
+.sale-container h5 {
     font-size: 18px;
     font-family: calibri;
 }
-.sale-container h1{
+
+.sale-container h1 {
     font-size: 70px;
     font-family: calibri;
     color: red;
     font-weight: 700;
 }
-.sale-container p{
+
+.sale-container p {
     padding: 0 300px;
 }
 
-.sale-container-img{
+.sale-container-img {
     max-width: 1300px;
     margin: 0 auto;
 
 }
 
-.sale-container-img .sale-img-1{
+.sale-container-img .sale-img-1 {
     width: 400px;
-    margin-left:900px;
+    margin-left: 900px;
     vertical-align: middle;
-  
+
 }
-.sale-container-img .sale-img-2{
+
+.sale-container-img .sale-img-2 {
     width: 1300px;
     height: 200px;
 }
-.img-box{
+
+.img-box {
     width: 550px;
     height: 400px;
     position: absolute;
     margin-top: 170px;
     margin-left: 50px;
 }
-.img-circle{
+
+.img-circle {
     width: 250px;
     position: absolute;
     margin-top: 100px;
@@ -241,74 +245,136 @@
 
 /* portfolio section related style */
 
-.portfolio-container{
+.portfolio-container {
     max-width: 1300px;
-    margin:100px auto;
+    margin: 100px auto;
 }
 
-.portfolio-container h5{
+.portfolio-container h5 {
     font-family: calibri;
     font-size: 18px;
     color: red;
 }
-.portfolio-container h1{
+
+.portfolio-container h1 {
     font-size: 60px;
     font-family: calibri;
     color: rgb(55, 35, 35);
 }
 
-.portfolio-container p{
+.portfolio-container p {
     font-size: 20px;
     font-family: calibri;
     color: rgb(92, 83, 83);
 }
 
-.portfolio-img img:hover{
-    opacity: 50%;
-    transition: .5s ease;
-    transform: translateY(0);
-    box-shadow: 0 0 1rem rgb(27, 36, 36);
-    overflow: hidden;
+.portfolio-img img:hover {
+    opacity: 30%;
     border-radius: 20px;
     transition: .5s ease;
 }
 
 /* Subscribe Section Related Styles */
 
-.subscribe-container{
+.subscribe-container {
     max-width: 1300px;
     max-height: 600px;
     background-color: rgba(255, 228, 196, 0.411);
     margin: 0 auto;
 }
 
-.subscribe-content{
+.subscribe-content {
     padding: 80px 400px;
     text-align: center;
     margin: 10px 0;
 }
-.subscribe-content img{
+
+.subscribe-content img {
     width: 130px;
 }
-.subscribe-content h1{
+
+.subscribe-content h1 {
     font-size: 50px;
     padding: 30px 0 0;
-   
-}
-.subscribe-content p{
-    font-size: 17px;
-}
-.subscribe-content input{
-    padding: 17px 80px;
-    border-radius: 50px 0 0 50px;
-    border: none;
+
 }
 
-.btn-subcribe{
+.subscribe-content p {
+    font-size: 17px;
+}
+
+.subscribe-input {
+    display: flex;
+}
+
+.subscribe-input input {
+    padding: 17px 150px;
+    border-radius: 50px 50px 50px 50px;
+    border: none;
+    border-color: rgba(255, 228, 196, 0.411);
+
+}
+
+
+
+.btn-subscribe {
+    position: relative;
     padding: 17px 50px;
-    border-radius:0 50px 50px 0 ;
-    margin-left: -10px;
+    border-radius: 0 50px 50px 0;
+    margin-left: -155px;
     border: none;
     color: white;
     background-color: rgba(255, 0, 0, 0.696);
 }
+
+.btn-subscribe a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* footer section related styles */
+
+.footer-container {
+    background-color: rgb(1, 1, 10);
+    margin-top: 100px;
+
+}
+
+
+
+
+
+
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 40px;
+    gap: 300px;
+    color: white;
+
+}
+
+
+
+.footer-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.footer-image img {
+    width: 40px;
+}
+
+hr{
+    width: 39%;
+    margin: 30px auto;
+    opacity: 10%;
+}
+
+
+
