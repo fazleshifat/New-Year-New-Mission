@@ -243,9 +243,72 @@
 
 .portfolio-container{
     max-width: 1300px;
-    margin:0 auto;
+    margin:100px auto;
 }
 
-.portfolio-img{
+.portfolio-container h5{
+    font-family: calibri;
+    font-size: 18px;
+    color: red;
+}
+.portfolio-container h1{
+    font-size: 60px;
+    font-family: calibri;
+    color: rgb(55, 35, 35);
+}
+
+.portfolio-container p{
+    font-size: 20px;
+    font-family: calibri;
+    color: rgb(92, 83, 83);
+}
+
+.portfolio-img img:hover{
+    opacity: 50%;
+    transition: .5s ease;
+    transform: translateY(0);
+    box-shadow: 0 0 1rem rgb(27, 36, 36);
+    overflow: hidden;
+    border-radius: 20px;
+    transition: .5s ease;
+}
+
+/* Subscribe Section Related Styles */
+
+.subscribe-container{
+    max-width: 1300px;
+    max-height: 600px;
+    background-color: rgba(255, 228, 196, 0.411);
+    margin: 0 auto;
+}
+
+.subscribe-content{
+    padding: 80px 400px;
+    text-align: center;
+    margin: 10px 0;
+}
+.subscribe-content img{
+    width: 130px;
+}
+.subscribe-content h1{
+    font-size: 50px;
+    padding: 30px 0 0;
    
+}
+.subscribe-content p{
+    font-size: 17px;
+}
+.subscribe-content input{
+    padding: 17px 80px;
+    border-radius: 50px 0 0 50px;
+    border: none;
+}
+
+.btn-subcribe{
+    padding: 17px 50px;
+    border-radius:0 50px 50px 0 ;
+    margin-left: -10px;
+    border: none;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.696);
 }
